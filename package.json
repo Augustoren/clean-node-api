@@ -4,7 +4,8 @@
   "description": "Api rest node.js - S.O.L.I.D Principles - TDD.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll",
+    "test:staged": "jest"
   },
   "standard": {
     "env": [
