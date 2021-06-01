@@ -63,3 +63,5 @@ describe('Login Router', () => {
     expect(authUseCaseSpy.password).toBe(httpRequest.body.password)
   })
 })
+
+const a = 1
